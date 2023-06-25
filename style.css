@@ -1,0 +1,354 @@
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+ body{
+    background-color:white;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+   
+ }
+ nav{
+    display:flex;
+    justify-content:space-around;
+    color: white;
+    align-items: center;
+    height: 60px;
+    background-color:#1a1a1d;
+
+ }
+
+ nav ul{
+    display: flex;
+    justify-content: center;
+ }
+ nav ul li{
+    list-style: none;
+    margin: 0 23px;
+
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+
+ }
+ nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(207, 209, 140);
+    font-size: 1.02rem;
+
+ }
+ 
+ .left{
+    font-size: 1.5rem
+    
+    }
+
+
+ .firstSection{
+    display: flex;
+    justify-content: space-around;
+        align-items: center;
+        margin: 40px 0;
+        color: #7600bc;
+        margin-bottom: -49px;
+ }
+
+ .firstSection > div{
+   width: 30%;
+ }
+
+ .leftSection{
+    
+    font-size: 3rem;
+    margin: 90px;
+
+   
+ }
+ .leftSection button {
+   font-size: 1rem;
+   margin: 9px;
+   background: #e8c5fd;
+   padding: 1 20px;
+   margin-bottom: 80px;
+}
+
+
+ .rightSection img{ 
+    margin: -3px;
+    width: 115%;
+   
+   
+ }
+ .purple{
+    color: rgb(144, 19, 144);
+ }
+
+ #element{
+    color: rgb(144, 19, 144);
+ }
+.about{
+   max-width: 80vw;
+   margin: auto;
+}
+
+footer{
+   background-color: rgb(11 29 65);
+   height: 203px;
+
+}
+.footer{
+   display: flex;
+   margin: 123px;
+}
+.contactform{
+   text-transform: capitalize;
+   font-family: 'Fira Sans', sans-serif;
+   padding: 38px 30px;
+   display: flex;
+   justify-content: space-around;
+   margin-top: -68px;
+}
+
+
+
+.contactform h1{
+   font-size: 48px;
+   color: firebrick;
+   font-family: 'poppins',sans-serif;
+   text-transform: uppercase;
+   margin: 79px -63px;
+}
+.contactform h1 span{
+   color: cadetblue;
+   font-size: 65px;
+   text-align: left;
+}
+.info{
+   margin-bottom: 30px;
+   text-align: center;
+   color: #7600bc;
+} 
+
+.info i{
+   font-size: 21px;
+   color: cadetblue;
+}
+.info span{
+   margin: 0 29px;
+}
+.contactform form{
+   color: #0a010f;
+   border: 7px solid cadetblue;
+   padding: 6px 34px;
+   border-radius: 24px;
+   box-shadow: -9px 10px 12px black;
+   background:transparent;
+
+}
+.contactform form div{
+   padding: 10px 0px;
+   width: 20vw;
+   
+}
+.clientname{
+   display: flex;
+   flex-direction: column;
+   font-size:14px;
+}
+#name{
+   border-radius: 4px;
+   height: 20px;
+   margin: 8px 0;
+   padding: 3px;
+}
+.Email_form{
+   display: flex;
+   flex-direction: column;
+   font-size:14px;
+}
+#clientEmail{
+   border-radius: 4px;
+   height: 20px;
+   margin: 8px 0;
+   padding: 3px;
+}
+.form-text{
+   font-size: 9px;
+   color: cadetblue;
+
+}
+.phone_form{
+   display: flex;
+   flex-direction: column;
+}
+#clientPhone{
+   border-radius: 4px;
+   height: 20px;
+   margin: 8px 0;
+   padding: 3px;
+}
+.form_check{
+   font-size: 11px;
+   color: cadetblue;
+   display: flex;
+}
+.check-label{
+   margin:2px 10px;
+   
+}
+
+
+.btn{
+   
+      color: #000000;
+      border: 3px solid cadetblue;
+      background: transparent;
+      text-transform: capitalize;
+      font-weight: bold;
+      padding: 15px 36px;
+      margin: 35px -177px;
+      cursor: pointer;
+      margin-left: 1px;
+      margin-top: 1px;
+      margin-bottom: 125px;
+
+}
+.btn:hover{
+   box-shadow: 2px 2px 5px cadetblue;
+   transition: 0.2s;
+   color:rgb(0, 0, 0);
+}
+/* about */
+.aboutcontainer{
+   display: flex;
+   color: #569122;
+   padding: 50px;
+
+   
+}
+.aboutcontainer div{
+ 
+   margin: 10px 50px;
+   padding: 15px 10px;
+   
+}
+ h1{
+   margin: 21px 0px;
+   font-size: 30px;
+   color: #f16524;
+
+}
+ p {
+   font-weight: bold;
+    font-size: 13px;
+    font-family: 'Source Code Pro', monospace;
+    color: green;
+}
+.goal{
+ 
+   margin: 10px 50px;
+   padding: 15px 10px;
+   padding: 50px;
+
+}
+/*SKills*/
+
+.all_skills {
+   
+   display: flex;
+   flex-flow: wrap;
+   color: #cd5858;
+   align-content: space-around;
+   justify-content: flex-start;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 50px;
+
+   
+ }
+ 
+ .skill {
+   border: 1px solid rgb(4, 0, 0);
+   display: block;
+   border-radius: 6px;
+   text-align: center;
+   margin: 50px;
+   padding: 10px;
+   width: 2in;
+   height: 100px;
+   font-size: 20px;
+   box-shadow: 0 3px 10px gray;
+   color:black;
+
+ }
+ 
+ 
+ 
+ 
+ .skill img {
+   height: 35px;
+   align-items: center;
+ }
+ 
+ 
+ .skills h6 {
+
+   align-items: center;
+   font-size: 20px;
+   margin-block-start: 8px;
+   margin-block-end: 5px;
+   font-weight: bold;
+ } 
+ 
+ 
+ 
+ .flex_center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #000000;
+ }
+ 
+ /* Projects */
+ 
+ 
+ .projects-container {
+   color: black;
+   margin-top: 30px;
+   margin-left: 60px;
+   padding: 80px;
+   margin-bottom: 55px;
+
+ }
+ 
+ .projects-container hr {
+   border: 1px solid #ff2424;
+   width: 75%;
+   margin-left: inherit;
+ }
+ 
+ .project-card {
+   margin: 0 15px 15px 30px;
+   padding-bottom: 5px;
+ }
+ 
+ .project-card h3 {
+   font-size: 25px;
+   margin-left: 30px;
+ }
+ 
+ .project-card li {
+   font-size: 20px;
+   margin-left: 30px;
+ }
+ h2{
+   
+   color: #7600bc;
+   text-align: left;
+   font-size: 55px;
+   margin-left: 81px;
+ }
